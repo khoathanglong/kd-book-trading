@@ -1,0 +1,15 @@
+.btn-primary {
+	margin-left: 10px;
+}
+.form-group{
+	margin-bottom:0;
+}
+.removeButton{
+	width:90%;
+	margin:5px auto; 
+}
+@media screen and (max-width: 575px){
+	.btn-primary{
+		margin-bottom: 16px;
+	}
+}

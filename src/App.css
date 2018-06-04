@@ -1,0 +1,70 @@
+/*common style*/
+.card-text{
+	padding-left: 5px;
+}
+
+/*addbook style*/
+.card {
+	margin-bottom: 10px;
+}
+.card h5{
+	font-size: 1em;
+	text-align: center;
+}
+.card .addButton {
+	position: absolute;
+	right: 0;
+	top:0;
+	font-size: 1.5em;
+	vertical-align: text-top;
+}
+.card .addbook{
+	opacity: 1;
+}
+.card .addbook:hover{
+	transform: scale(1.1);
+	transition: all .2s ease-in-out;
+	cursor: pointer;
+}
+
+/*mybooks.js style*/
+.card i:nth-child(2){
+	color:green;
+	font-size: 24px;
+	padding-left: 5px;
+}
+.card i:nth-child(3){
+	color:red;
+	font-size: 24px;
+	padding-left: 10px
+}
+.card i:hover{
+	display: inline-block; /*to apply transform*/
+	cursor: pointer;
+	transform: scale(1.5);
+	transition: all .2s ease-in-out;
+}
+
+.card-text-remove{
+	color: red;
+}
+.card-text-remove>i{
+	font-size: 24px;
+	line-height: 20px;
+	position: absolute;
+	right:0;
+	top :0;
+}
+.card-text-remove>i:hover {
+	transform: scale(1);
+}
+/*allbooks.js style*/
+
+.owned-button ,.request-button ,.cancel-button{
+	position: absolute;
+	right:0;
+	top :0;
+	width:70px;
+	font-size: 1em;
+	padding:2px !important;
+}
